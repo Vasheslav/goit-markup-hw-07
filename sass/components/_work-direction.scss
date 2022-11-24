@@ -1,0 +1,44 @@
+.work-direction {
+    padding-bottom: 94px;
+}
+
+.work-direction__title {
+    margin-bottom: 50px;
+
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.work-direction__list {
+    display: flex;
+}
+
+.work-direction__element {
+    position: relative;
+
+    &:not(:last-child) {
+            margin-right: 30px;
+        }
+}
+
+.signature {
+    @include displey-flex;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    height: 70px;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.signature__title {
+
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+}

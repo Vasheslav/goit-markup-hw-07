@@ -18,35 +18,36 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
   </head>
 
   <body>
     <!-- шапка с лого, сайтом и тел.-->
     <header class="header">
-      <div class="container header-flex">
+      <div class="header__flex container">
         <nav class="nav">
           <a href="./index.html" class="logo link">Web<span class="logo__studio">Studio</span></a>
           <ul class="nav__list list">
             <li class="nav__item">
-              <a href="./index.html" class="link nav__link-current">Студія</a>
+              <a href="./index.html" class="link link-current">Студія</a>
             </li>
             <li class="nav__item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
             <li class="nav__item"><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
-        <ul class="contacts list">
+        <ul class="contact list">
           <li class="contact__list">
-            <a href="info@devstudio.com" class="link">
-              <svg class="icon-contacts" width="16" height="12">
+            <a href="info@devstudio.com" class="contact__link link">
+              <svg class="contact__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
           <li class="contact__list">
-            <a href="tel:+38_096_111_11_11" class="link">
-              <svg class="icon-contacts" width="10" height="16">
+            <a href="tel:+38_096_111_11_11" class="contact__link link">
+              <svg class="contact__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
