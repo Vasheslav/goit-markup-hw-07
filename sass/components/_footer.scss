@@ -15,9 +15,8 @@
     margin-top: 20px;
 
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
+
+    @include font(14px, 1.71, 0.03em);
 }
 
 .address__link {
@@ -46,9 +45,9 @@
 .social__tittle {
     text-transform: uppercase;
     margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+
+    @include font(14px, 1.14, 0.03em);
+
     color: var(--color-white);
 }
 
@@ -99,8 +98,8 @@
     &::placeholder {
         color: rgba(255, 255, 255, 0.6);
         font-weight: 400;
-        font-size: 16px;
-        line-height: 1.25;
+
+        @include font(16px, 1.25, 0.03em);
     }
 }
 
@@ -112,9 +111,7 @@
     width: 200px;
     padding: 0;
 
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.06em;
+    @include font(16px, 1.88, 0.06em);
 }
 
 .last-box__icon {

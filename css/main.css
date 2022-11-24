@@ -281,9 +281,9 @@ img {
 
 .work-direction__title {
   margin-bottom: 50px;
+  text-align: center;
   font-size: 36px;
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -322,7 +322,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
 .team {
@@ -686,30 +686,35 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 .last-box__input::-moz-placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 .last-box__input:-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 .last-box__input::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 .last-box__input::placeholder {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
+  letter-spacing: 0.03em;
 }
 
 .last-box__button {
@@ -836,6 +841,7 @@ img {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
+  letter-spacing: 0.01em;
 }
 
 .input-box__box {
@@ -858,31 +864,37 @@ img {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
+  letter-spacing: 0.01em;
 }
 .input-box__input-textarea::-webkit-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-size: 12px;
   line-height: 1.17;
+  letter-spacing: 0.01em;
 }
 .input-box__input-textarea::-moz-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-size: 12px;
   line-height: 1.17;
+  letter-spacing: 0.01em;
 }
 .input-box__input-textarea:-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-size: 12px;
   line-height: 1.17;
+  letter-spacing: 0.01em;
 }
 .input-box__input-textarea::-ms-input-placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-size: 12px;
   line-height: 1.17;
+  letter-spacing: 0.01em;
 }
 .input-box__input-textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-size: 12px;
   line-height: 1.17;
+  letter-spacing: 0.01em;
 }
 .input-box__input:focus {
   border-color: var(--accent-color);
@@ -945,6 +957,7 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 

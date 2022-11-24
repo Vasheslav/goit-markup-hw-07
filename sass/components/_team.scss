@@ -7,9 +7,7 @@
 .team__title {
     margin-bottom: 50px;
 
-    font-size: 36px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
+    @include font(36px, 1.17, 0.03em);
 }
 
 .team__list {
@@ -38,9 +36,8 @@
 
 .borderbox__name,
 .borderbox__position {
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+
+    @include font(16px, 1.19, 0.03em);
 }
 
 .borderbox__name {

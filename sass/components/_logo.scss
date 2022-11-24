@@ -2,9 +2,7 @@
     color: var(--accent-color);
     font-family: var(--secondary-font);
 
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+    @include font(26px, 1.19, 0.03em);
 
     &__studio {
         color: #000;
