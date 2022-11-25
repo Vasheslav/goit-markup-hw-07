@@ -185,6 +185,7 @@
     width: 200px;
     padding: 10px 52px;
 
+    font-weight: 700;
     @include font(16px, 1.88, 0.06em);
     
     transition: background-color var(--transition);
